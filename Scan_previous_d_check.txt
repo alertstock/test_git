@@ -1,0 +1,4 @@
+(close[1] < MovAvgExponential("length" = 20) and close is greater than or equal to MovAvgExponential("length" = 20)) OR (close[2] < MovAvgExponential("length" = 20) and close is greater than or equal to MovAvgExponential("length" = 20))
+OR (close[3] < MovAvgExponential("length" = 20) and close is greater than or equal to MovAvgExponential("length" = 20))
+OR (close[4] < MovAvgExponential("length" = 20) and close is greater than or equal to MovAvgExponential("length" = 20))
+OR (close[5] < MovAvgExponential("length" = 20) and close is greater than or equal to MovAvgExponential("length" = 20))
